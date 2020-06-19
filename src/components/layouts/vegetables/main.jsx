@@ -86,7 +86,7 @@ function Vegetables(props) {
                                                     <div className="my-cool-wrapper">
                                                         <div className={"text-and-images-on-top"}>
                                                             <h4 style={{color: '#870000'}}>save 10%</h4>
-                                                            <h1 >Produit alimentaires frais</h1><Link to={`${process.env.PUBLIC_URL}/features/element-product-box`}  className="btn btn-solid">shop All
+                                                            <h1 >Produit alimentaires frais new</h1><Link to={`${process.env.PUBLIC_URL}/features/element-product-box`}  className="btn btn-solid">shop All
                                                                                                 </Link>
                                                          </div>
 
