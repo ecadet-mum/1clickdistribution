@@ -1,0 +1,27 @@
+.my-cool-wrapper {
+    position: relative;
+}
+.my-cool-wrapper .text-and-images-on-top {
+    padding: 10px 15px 19px 15px;
+    z-index: 1;
+    position: relative; /* needed to enable the z-index */
+}
+.my-cool-wrapper .transparent-background {
+    border-radius: 16px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";       /* IE 8 */
+    filter: alpha(opacity=50);  /* IE 5-7 */
+    -moz-opacity: 0.5;          /* Netscape */
+    -khtml-opacity: 0.5;        /* Safari 1.x */
+    opacity: 0.5;               /* Good browsers */
+    background-color: white;
+}
+
+
+.headerStyle{
+    color: #870000;
+    color: #4b4b4b
+}
